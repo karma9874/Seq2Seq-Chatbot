@@ -9,6 +9,7 @@ To run this chabtot you will need:
 * Tensorflow (1.13.1)
 * Numpy
 * Flask
+* Matplotlib
 * [Dataset](http://www.cs.cornell.edu/~cristian/data/cornell_movie_dialogs_corpus.zip)
 
 ## Running
