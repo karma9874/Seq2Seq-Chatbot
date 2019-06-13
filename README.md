@@ -44,10 +44,10 @@ To Train Model from Python Console:
 Model was able to train to `Accuracy of 62%` and `Loss of 19%` and after that it was overfitting
 
 ### Accuracy
-<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Accuracy.png" alt="alt text" width="100" height="100">
+<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Accuracy.jpg" alt="alt text" width="100" height="100">
 
 ### Loss
-<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Loss.png" alt="alt text" width="100" height="100">
+<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Loss.jpg" alt="alt text" width="100" height="100">
 
 ### Chat Results
 ```
@@ -67,7 +67,7 @@ Human: do you drink
 Bot: no thanks
 ```
 Some Funny Result
-<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Result.png" alt="alt text" width="850" height="500">
+<img src="https://github.com/karma9874/Seq2Seq-Chatbot/Images/Result.jpg" alt="alt text" width="850" height="500">
 
 
 
