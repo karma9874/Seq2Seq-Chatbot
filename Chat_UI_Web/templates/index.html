@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>  
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js" ></script>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="../static/main.css">
+</head>
+<div class="chat_window">
+   <div class="top_menu">
+      <div class="buttons">
+         <div class="button close"></div>
+         <div class="button minimize"></div>
+         <div class="button maximize"></div>
+      </div>
+      <div class="title">Chat With Bot</div>
+    </div>
+    <ul class="messages" id = 'ul_input'>
+    </ul>
+    <div class="bottom_wrapper clearfix">
+    	<div class="message_input_wrapper">
+		<input class="message_input" id='text_message' placeholder="Type your message here..." onkeydown =
+		"if (event.keyCode == 13)document.getElementById('send').click()"/>
+	    </div>
+        <div class="send_message" id ='send' onclick=get_message()>
+        	<div class="icon"></div>
+            <div class="text">Send</div>
+        </div>
+   </div>
+</div>
+<div class="message_template">
+   <li class="message">
+      <div class="avatar"></div>
+      <div class="text_wrapper">
+      <div class="text"></div>
+      </div>
+   </li>
+</div>
+
+
+<script src="../static/main.js"></script>  
+</body>
+</html>
